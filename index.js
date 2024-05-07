@@ -25,5 +25,5 @@ app.get('/message', (req, res)=>{
 // rum our server to listen at the port we defined
 
 app.listen(port, ()=>{
-    console.log(Server is running on port ${port})
+    console.log(`Server is running on port ${port}`)
 })
